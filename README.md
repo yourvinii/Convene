@@ -17,7 +17,7 @@ Convene — MERN + WebRTC based real-time video conferencing app.
 ## Setup
 
 ### 1. Clone repo
-git clone https://github.com/your-username/convene.git
+git clone https://github.com/yourvinii/Convene.git
 
 ### 2. Install dependencies
 cd client && npm install  
