@@ -9,11 +9,7 @@ export default function App() {
       audio: true,
     });
 
-    console.log(stream.getVideoTracks())
-    console.log(stream.getAudioTracks())
-    console.log(stream.active)
-    console.log(stream.id)
-    console.log(stream.clone())
+    
 
     if (videoRef.current && stream) {
       videoRef.current.srcObject = stream;
