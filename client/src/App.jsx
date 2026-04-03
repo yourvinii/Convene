@@ -9,7 +9,7 @@ export default function App() {
       audio: true,
     });
 
-    
+    console.log(stream.getVideoTracks());
 
     if (videoRef.current && stream) {
       videoRef.current.srcObject = stream;
